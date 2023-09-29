@@ -21,4 +21,35 @@ int main()
     scanf("%f", &num1);
     printf("Enter the second number: ");
     scanf("%f", &num2);
+
+    // Using switch case to solve the problem
+    switch (choice)
+    {
+    case 1:
+        result = num1 + num2;
+        printf("The sum of %.2f and %.2f is %.2f", num1, num2, result);
+        break;
+    case 2:
+        result = num1 - num2;
+        printf("The difference between %.2f and %.2f is %.2f", num1, num2, result);
+        break;
+    case 3:
+        result = num1 * num2;
+        printf("The product of %.2f and %.2f is %.2f", num1, num2, result);
+        break;
+    case 4:
+        if (num2 == 0)
+        {
+            printf("Division by 0 is not possible");
+        }
+        else
+        {
+            result = num1 / num2;
+            printf("The division of %.2f and %.2f is %.2f", num1, num2, result);
+        }
+        break;
+    default:
+        printf("Invalid choice. Please choose a valid operation.\n");
+    }
+    return 0;
 }
