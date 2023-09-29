@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int main(void)
+// Basic Calculator
+int main()
 {
-    
+    int choice;
+    float num1, num2, result;
 }
