@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 // Basic Calculator
 int main()
@@ -8,6 +9,8 @@ int main()
     float num1, num2, result;
 
     // Displaying the menu
+    system("cls");
+
     printf("Select an operation:\n");
     printf("1. Addition\n");
     printf("2. Subtraction\n");
@@ -17,12 +20,16 @@ int main()
     scanf("%d", &choice);
 
     // Asking user for the input
+    system("cls");
+
     printf("Enter the first number: ");
     scanf("%f", &num1);
     printf("Enter the second number: ");
     scanf("%f", &num2);
 
     // Using switch case to solve the problem
+    system("cls");
+
     switch (choice)
     {
     case 1:
