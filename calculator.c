@@ -15,4 +15,10 @@ int main()
     printf("4. Division\n");
     printf("Enter your choice (1-4): ");
     scanf("%d", &choice);
+
+    // Asking user for the input
+    printf("Enter the first number: ");
+    scanf("%f", &num1);
+    printf("Enter the second number: ");
+    scanf("%f", &num2);
 }
